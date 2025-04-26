@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finpay</title>
+    <style>
+             *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   Font-family: "poppins", sans-serif;
+}
+.wrapper{
+        width:4px;
+      background: transparent;
+      border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 37px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width:100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width:100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+        }
+.input-box input::placeholder{
+    color:#fff;
+}
+.input-box i{
+
+    position: absolute;
+    right:20px;
+    top: 50%;
+    transform:translateY(-50%);
+    font-size: 20px;
+}
+    .input-box input{
+    width:100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    }  
+.input-box input::placeholder{
+    color:#fff;
+}
+.input-box i{
+    position: absolute;
+    right:20px;
+    top: 50%;
+    transform:translateY(-50%);
+    font-size: 20px;
+}
+.input-box input{
+    width:100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+        }
+.input-box input::placeholder{
+    color:#fff;
+}
+.input-box i{
+    position: absolute;
+    right:20px;
+    top: 50%;
+    transform:translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper.remember-forgot {
+    display:flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+}
+.remember-forgot label{
+  accent-color:#fff ; 
+  margin-right: 3px; 
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,o,o,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+  text-decoration: underline;  
+}
+         .form{
+          width: 350px;
+          height: 480px;
+          background: blue;
+          position: center;
+          top: -40px;
+          Justify-content: center;
+          align-items: center;
+left: 800px;
+          border-radius: 10px;
+          padding: 25px;
+         }
+
+
+          .form2{
+            width: 800px;
+            height: 582px;
+            background: blue;
+            position: absolute;
+            top: 100px;
+            Justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+          .form3{
+            width: 300px;
+            height: 200px;
+            background: silver;
+            position:absolute;
+            top: 638px;
+      left: -42px;      
+            Justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+
+          .form4{
+            width: 300px;
+            height: 196px;
+            background: silver;
+            position: absolute;
+            top: 606px;
+      left: 250px;
+             border-radius: 10px;
+             padding: 25px;
+          }
+
+
+          .form5{
+            width:350px;
+            height: 199px;
+            background :silver;
+            position:absolute;
+            top: 140px;
+      left: -390px;
+             border-radius: 10px;
+             padding: 25px;
+          }
+
+
+          .form6{
+            width: 300px;
+            height: 212px;
+            background: silver;
+            position: absolute;
+            top: -206px;
+      right: -569px;
+             border-radius: 10px;
+             padding: 25px;
+          }
+
+
+          .form7{
+            width: 700px;
+            height: 612px;
+            background: blue;
+            position: absolute;
+            top: 100px;
+    left: -360px;
+            Justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+
+          .form8{
+            width: 600px;
+            height: 312px;
+            background: white;
+            color: #333;
+            position: absolute;
+            top: 36px;
+    left: -10px;
+            Justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+
+
+          .form9{
+            width: 300px;
+            height: 200px;
+            background: silver;
+            position:absolute;
+            top: 38px;
+      left: -96px;      
+            Justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+
+          .form10{
+            width: 300px;
+            height: 196px;
+            background: blue;
+            position: absolute;
+            top: -136px;
+      left: 306px;
+             border-radius: 10px;
+             padding: 25px;
+          }
+
+
+          .form11{
+            width: 600px;
+            height: 382px;
+            background: black;
+            position: absolute;
+            top: 100px;
+        right: -190px;
+            Justify-content center;
+            align-items: center;
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+
+
+              .form12{
+            width: 600px;
+            height: 482px;
+            background: white;
+            color: #333;
+            position: absolute;
+            top: 100px;
+        right: -496px;
+            Justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+            padding: 25px;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          header{
+          display: flex;
+          width: 100%;
+          color:red;
+          background-color: white;
+          height: 90px;
+          font-size: xx-large;
+          align-items: center;
+          justify-content: space-between;
+          position: fixed;
+          padding: 5px;
+          top:50;
+        
+          z-index: 99;
+          transition: all 0.3s ease;
+
+          }
+          header.logo{
+            flex: 1;
+            color: white;
+            margin-left: 50px;
+            text-transform: up;
+
+          }
+          header ul{
+            flex: 2;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          header ul li{
+            list-style: none;
+          }
+          header ul li a{
+            text-decoration: none;
+            color:white;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 10px 15px;
+          }
+          header ul li a:hover{
+            border-bottom: 2px solid cadetblue;
+          }
+     
+
+header{
+          display: flex;
+          width: 100%;
+          color:red;
+          background-color: white;
+          
+          height: 100px;
+          font-size: large;
+          align-items: center;
+          justify-content: space-between;
+          position: fixed;
+          padding: 5px;
+          top:50;   
+} 
+    </style>
+</head>
+<body>
+    
+
+    <header>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAjdJREFUSEvF1kuoTXEUx/HPVQy8JQaSkmcZeKSUCcorJYqUIXmkTOVxU0gemSlhYqhEeafkEQNJKTJQTORR8jbylr1u/6vbsf/n3n3OyV11OrVbe33/a+3ff63VppesrZe4/ie4LwbjfSTbCLgPRqTfELzBc3wrqd4YLMR8LMFWHK0C7o8VWInF6FcC+YRXiP9RGIkBNX67imR39wQcFVlbBDiEYS3Qwz60dwcehIuY0wJgZ4i92FkPHCK4iRkthEaoHdhfD3wcG1oMjXCbcCwHnooHdaDfca4Q2yNMxIRUmTLB1YZZiks5cHyDPSXgl0mRF7AO2xA6qGKT8CQHvoF5XaL9SqqOa7AMh9NVqQIM3y8YiN85cNzFuIdhnzEXD3EQW6rSuvhfT42k41FZ5wpYqPpHgt7BCaxpAhqvbseBzhhl4ChFPF+O80ndofJmbSye1QNHqS8n4PSiRd7NtMgqB7mKRV1fKMs4yhqKjeZ/JfXmKpAy3xgS8Y3/Whk4Js9bTMbjZom4hgW1ceqNxegwG5sEfyiazTS8qAJ+h+FNgOPeRonjVvxjuYzH42kT0PhUMbtv52LkwKuLPnyyQfDZYiFY37niVAVHr+6Ym6l9zk4LwbhMoK9pjMaNONOTA+cyPoVVtf0VozEFMcF+4nUSzr3MzpU9Qw4cTWMW7hdjbGZPMqjqkwOHsEJgp1PmVeN2658Df8TQYoU9gs3dRmnAIQeONTTsVhJNA6Hrv9LIQt+SQ/Qa+A+mil0fy5JsmwAAAABJRU5ErkJggg=="/><div class="logo"><h1>Finpay</h1>
+
+      
+
+</div>
+  
+    <a href="/">
+        <i STORE="fas fa-product">
+        </i>
+    <a href="product.html">PRODUCT  </a>
+        </li>
+        </ul>
+        <a href="/">
+            <i STORE="fas fa-pricing">
+            </i>
+            <a href="pricing.html">PRICING</a>
+            </li>
+            </ul>
+            <a href="/">
+                <i STORE="fas fa-learn">
+                </i>
+                <a href="learn.html">LEARN</a>
+                </li>
+                </ul>
+               
+        </div>
+        <div>
+            <button type="submit" class="btn">Sign up</button>
+            
+        </div>
+       <div>
+        <button type="submit" class="btn">Login</button> 
+       </div>
+        </header>  
+       <h1>Get paid early</h1>
+        <h1>Save automatically</h1>  
+        <h1>Get paid early</h1>
+        <h1>Save automatically</h1>
+        <h1>all your pay.</h1> 
+        <li>support small businesses with simple payment</li>
+              
+        <img src="markus-winkler-ahjzVINkuCs-unsplash.jpg" width="400" height="400"></sub>
+        <div class="wrapper">
+        <form action="">
+            <div class="form">
+             <h1>GET YOUR MONEY HERE</h1>   
+                <l1>$1,876,580</l1>
+            <div class="input-box">
+              <input type="Debit card"
+              placeholder="Debit card" required >
+            </div>
+            <div class="input-box">
+              <input type="Bank account"
+              placeholder="Bank account" required>
+              
+            </div>
+            
+            <div class="remember-forgot">
+              <label><input type="checkbox">Remember me</label>
+            <a href="#">forgot account</a>
+          </div>
+
+          
+        
+          <button type="submit" class="btn">pay</button>
+        </form>  
+       
+         
+        </div>
+      </form>
+       
+        <div class="wrapper">
+          <form action="">
+              <div class="form2">
+        <div>
+          <h1>Experience that grows with your scale</h1>
+          <img src="calendar-alt-regular-34.png">      <h1>Free transfers</h1>
+          <li>Create a new account by paying</li>
+          <li>Use your card to pay</li>
+          <li>Receiving payments</li>
+          </div>
+          <div>
+
+            </div>
+            <h1>Multiple account</h1>
+            <li>Create your own personal account</li>
+            <li>Sign in for your account</li>
+            <li>Your account</li>
+<h1>Unmatched security</h1>
+<li>Make your own security</li>
+<li>Do not open it when not necessary</li>
+<li>Do not use another persons account</li>
+</div> 
+</form2>
+<h1>WHY THEY PREFER FINPAY</h1>
+<div class="wrapper">
+<form action="">
+<div class="form3">
+  <div>
+    <h1>3K+</h1>
+    <li>Business already running</li>
+    <li>On Finpay</li>
+    </div>
+    </div>
+    </form3>
+    <div class="wrapper">
+      <form action="">
+    <div class="form4">
+      <div>
+        <li>Instant withdraw funds</li>
+        <li>At any time</li>
+        </div>
+        </form4>
+        <div class="wrapper">
+          <form action="">
+            <div class="form5">
+              <div>
+                <h1>No asset volatility</h1>
+                <li>No asset required on Finpay</li>
+                <li>Finpay don't use asset volatility</li>
+                <li>Say no to asset volatility on Finpay</li>
+              </form5>
+          <div class="wrapper">
+            <form action="">
+              <div class="form6">
+                <div>
+                  <h1>$1,876,580</h1>  
+                  <img src="markus-winkler-IrRbSND5EUc-unsplash.jpg" width="250" height="130">
+                  </form6>
+            <div class="wrapper">
+               <form action="">
+                <div class="form7">
+                    <div>
+                        <h1>Maximize your returns with a reserve account that generates.</h1>       <h1>1</h1>       <h1>Open your account</h1>
+                        <li>You can also open your account on Finpay</li>
+                        <li>You can generate your account by opening your own account on Finpay</li>
+                        <h1>2</h1>     <h1>Transfer your money</h1>
+                        <li>You can also transfer your money on Finpay, in order to be safe</li>
+                        <li>Before that you have to open your account</li>
+                        <h1>3</h1>      <h1>Watch your balance grow</h1>
+                        <li>Day by day your balance will grow on Finpay</li>
+                        <li>Before that your money has to be transfered to Finpay, in order to be safe</li>
+                    </form7>
+           <div class="wrapper">
+            <form action="">
+                <div class="form8">
+                    <div>
+                        <h1>We've helped innovative companies</h1>      <h1>We've helped them to keep their money safe from robbery</h1>
+                        <h1>24%</h1>        <h1>Premium Business</h1>
+                        <h1>180K</h1>       <h1>In annual revenue</h1>
+                        <h1>10+</h1>        <h1>money</h1>
+                        </form8>
+                        <div class="wrapper">
+                            <form action="">
+                                <div class="form9">
+                                    <div>
+                                        <h1>Plus</h1>
+                                        <h1>$2.99/month</h1>
+                                    </form9>
+            <div class="wrapper">
+                <form action="">
+                    <div class="form10">
+                        <div>
+                            <h1>Premium</h1>
+                            <h1>$6.99/month</h1>
+                            </form10>
+                            <div class="wrapper">
+                                <form action="">
+                                    <div class="form11">
+                                        <div>
+                                            <h1>Ready to level up your payment process?</h1>
+                                            <h1>You have to level up your payment process now so it would be upgraded</h1>
+                                            <button type="submit" class="btn">learn more</button>
+                                        </form11>
+                            <div class="wrapper">
+                                <form action="">
+                                    <div class="form12">
+                                        <div>
+                                            <li>Finpay</li>
+                                            <h1>Business</h1>
+                                            <li>Accounts</li>
+                                            <li>Accessories</li>
+                                            <li>Buying</li>
+                                            <li>Payment</li>
+                                            <h1>Company</h1>
+                                            <li>Bank</li>
+                                            <li>Store</li>
+                                            <li>Money</li>
+                                            <h1>Learn</h1>
+                                            <li>Blog</li>
+                                            <li>Instagram</li>
+                                            <li>Facebook</li>
+                                            <li>Twitter</li>
+                                        </form12>
+                                        </div>
+                                    </body>
+                                    </html>
